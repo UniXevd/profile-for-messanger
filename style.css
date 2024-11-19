@@ -1,0 +1,107 @@
+img {
+    max-width: 500px;
+    max-height: 500px;
+    border-radius: 25%;
+}
+
+.container-profile {
+    width: 1600px;
+    height: 800px;
+}
+.rectangle-profile-main-info {
+    width: 550px;
+    height: 725px;
+    background-color: #333; 
+    border-radius: 27.5px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
+}
+.rectangle-profile-photo {
+    width: 540px;
+    height: 540px; 
+    border-radius: 25px;
+    justify-self: center;
+    overflow: hidden;
+    padding: 20px; 
+    box-sizing: border-box;
+    background-color: #fff; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /
+}
+.profile-photo {
+    width: 500px; 
+    height: 500px; 
+    border-radius: 25px;
+    overflow: hidden;
+}
+.profile-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 25px; 
+}
+.rectangle-name-status {
+    background-color: #555; 
+    width: 450px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 27.5px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
+    margin-top: 25px;
+}
+.username {
+    width: 400px;
+    height: 50px;
+    background-color: #fff; 
+    border-radius: 27.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); 
+}
+.username-info {
+    width: 300px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px; 
+    color: #333; 
+}
+.status-of-user {
+    width: 200px;
+    height: 50px;
+    background-color: #fff; 
+    border-radius: 27.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); 
+    font-size: 22px; 
+    color: #333; 
+}
+.status-of-user-info {
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.rectangle-profile-add-info {
+}
+.rectangle-profile-item-info {
+}
+.logo-item-profile {
+}
+.profile-item-info {
+}
